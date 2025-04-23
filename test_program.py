@@ -12,6 +12,7 @@ def test_program():
 
     try:
         import program
+        pass
     except Exception as e:
         assert False, (
             'Не удалось запустить `program.py`. '
